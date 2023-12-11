@@ -1,0 +1,239 @@
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-text-size-adjust: 100%;
+    color: #444444;
+}
+
+a {
+    color: #111111;
+    transition: .3s all;
+  }
+  
+  a:hover {
+    color: #4125dd;
+  }
+  
+  a,
+  a:hover,
+  button,
+  button:focus {
+    transition: all .3s;
+    text-decoration: none;
+    outline: 0;
+  }
+  
+  .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    font-weight: 700;
+    color: #111111;
+  }
+  
+  h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    color: inherit;
+  }
+  
+  h1, .h1 {
+    font-size: 48px;
+  }
+  
+  h2, .h2 {
+    font-size: 36px;
+  }
+  
+  h3, .h3 {
+    font-size: 26px;
+  }
+  
+  h4, .h4 {
+    font-size: 22px;
+  }
+  
+  h5, .h5 {
+    font-size: 18px;
+  }
+  
+  h6, .h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    line-height: 28px;
+  }
+  
+  .lead {
+    line-height: 35px;
+  }
+
+.img-container{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.nav-module{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+
+}
+
+.portal-modules{
+    background-color: rgb(219, 138, 32);
+    height: 100vh;
+}
+
+.nav-module-container{
+    padding: 15px;
+}
+
+.welcome-container{
+    background-color:white ;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.objective-container{
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.book{
+    height: 150px;
+    width: 100px;
+    background-color: #4125dd;
+    margin: 40px;
+}
+
+/* Counsellor chat */
+
+.msg-container{
+  height: 90vh;
+}
+
+.text-input{
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  border-color: none;
+}
+/* for home page calendar*/
+
+.calendar-container{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* profile mng */
+
+.name-con{
+  margin: 20px;
+}
+
+/*attendance */
+
+.attendance-calender{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sidebarMenu{
+  height: 100vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+
+/*Counsellor*/
+
+.msg-container{
+  height: 90vh;
+}
+
+.text-input{
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  border-color: none;
+}
+
+.msg-from-student{
+  background-color: aquamarine;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 30px;
+}
+
+#sidebarMenu{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #141e46;
+
+}
+
+/* loginpage */
+
+.loginFormCon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginForm{
+  height: 300px;
+}
+#submitButton{
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*Home*/
+
+.welcome-container:hover{
+  background-color: #A6CF98;
+  color: #fff;
+  transform: scale(1.01);
+}
+
+.objective-container:hover{
+  background-color: #A6CF98;
+
+  transform: scale(1.01);
+
+}
+
+.nav-item:hover{
+  background-color: #00104e;
+}
+
+/*attendance*/
+.book-img{
+  width: 150px;
+  height: 250px;
+}
+
+#bookCon{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 20px;
+}
